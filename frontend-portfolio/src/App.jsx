@@ -11,14 +11,15 @@ import Navbar from './components/Navbar/Navbar';
 function App() {
   return (
     <React.Fragment>
-      <div className='bg-gray-200 subpixel-antialiased text-2xl'>
+      <div className='subpixel-antialiased text-2xl bg-gradient-to-b from-blue-50 to-transparent  w-full h-full absolute '>
+   
         <Navbar />
-        {/* <Header />
-        <About />
+        <Header />
+        {/* <About />
         <Work />
         <Skills />
         <Projects />
-        <Footer /> */}
+        <Footer />  */}
       </div>
     </React.Fragment>
   );
